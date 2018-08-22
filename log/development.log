@@ -4428,3 +4428,1009 @@ Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-22 14:42:46 -0400
 Started GET "/cable" for 127.0.0.1 at 2018-08-22 14:42:46 -0400
 Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-22 14:42:46 -0400
 Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-22 14:46:54 -0400
+Started GET "/cable" for 127.0.0.1 at 2018-08-22 14:46:54 -0400
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-22 14:46:54 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+There was an exception - JSON::ParserError(822: unexpected token at 'test')
+/Users/dchung/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/json/common.rb:156:in `parse'
+/Users/dchung/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/json/common.rb:156:in `parse'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/json/decoding.rb:23:in `decode'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/connection/base.rb:164:in `decode'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/connection/base.rb:87:in `dispatch_websocket_message'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:60:in `block in invoke'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:41:in `block in work'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:109:in `block in run_callbacks'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker/active_record_connection_management.rb:16:in `block in with_database_connections'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/connection/tagged_logger_proxy.rb:24:in `block in tag'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:71:in `block in tagged'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:28:in `tagged'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:71:in `tagged'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/connection/tagged_logger_proxy.rb:24:in `tag'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker/active_record_connection_management.rb:16:in `with_database_connections'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/engine.rb:62:in `block (4 levels) in <class:Engine>'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/execution_wrapper.rb:87:in `wrap'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/engine.rb:57:in `block (3 levels) in <class:Engine>'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:118:in `instance_exec'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:136:in `run_callbacks'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:40:in `work'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:58:in `invoke'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:53:in `block in async_invoke'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:348:in `run_task'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:337:in `block (3 levels) in create_worker'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `loop'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `block (2 levels) in create_worker'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `catch'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `block in create_worker'
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-22 14:47:16 -0400
+Started GET "/cable" for 127.0.0.1 at 2018-08-22 14:47:16 -0400
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-22 14:47:16 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+There was an exception - JSON::ParserError(822: unexpected token at 'test')
+/Users/dchung/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/json/common.rb:156:in `parse'
+/Users/dchung/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/json/common.rb:156:in `parse'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/json/decoding.rb:23:in `decode'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/connection/base.rb:164:in `decode'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/connection/base.rb:87:in `dispatch_websocket_message'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:60:in `block in invoke'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:41:in `block in work'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:109:in `block in run_callbacks'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker/active_record_connection_management.rb:16:in `block in with_database_connections'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/connection/tagged_logger_proxy.rb:24:in `block in tag'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:71:in `block in tagged'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:28:in `tagged'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:71:in `tagged'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/connection/tagged_logger_proxy.rb:24:in `tag'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker/active_record_connection_management.rb:16:in `with_database_connections'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/engine.rb:62:in `block (4 levels) in <class:Engine>'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/execution_wrapper.rb:87:in `wrap'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/engine.rb:57:in `block (3 levels) in <class:Engine>'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:118:in `instance_exec'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:136:in `run_callbacks'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:40:in `work'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:58:in `invoke'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:53:in `block in async_invoke'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:348:in `run_task'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:337:in `block (3 levels) in create_worker'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `loop'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `block (2 levels) in create_worker'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `catch'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `block in create_worker'
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-22 14:47:36 -0400
+Started GET "/cable" for 127.0.0.1 at 2018-08-22 14:47:36 -0400
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-22 14:47:36 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Received unrecognized command in "test"
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-22 14:49:33 -0400
+Started GET "/cable" for 127.0.0.1 at 2018-08-22 14:49:33 -0400
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-22 14:49:33 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Received unrecognized command in "test"
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-22 14:49:34 -0400
+Started GET "/cable" for 127.0.0.1 at 2018-08-22 14:49:34 -0400
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-22 14:49:34 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Received unrecognized command in "test"
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-22 14:49:51 -0400
+Started GET "/cable" for 127.0.0.1 at 2018-08-22 14:49:51 -0400
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-22 14:49:51 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Received unrecognized command in "test"
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-22 14:51:45 -0400
+Started GET "/cable" for 127.0.0.1 at 2018-08-22 14:51:45 -0400
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-22 14:51:45 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+There was an exception - JSON::ParserError(822: unexpected token at 'Here's some text that the server is urgently awaiting!')
+/Users/dchung/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/json/common.rb:156:in `parse'
+/Users/dchung/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/json/common.rb:156:in `parse'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/json/decoding.rb:23:in `decode'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/connection/base.rb:164:in `decode'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/connection/base.rb:87:in `dispatch_websocket_message'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:60:in `block in invoke'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:41:in `block in work'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:109:in `block in run_callbacks'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker/active_record_connection_management.rb:16:in `block in with_database_connections'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/connection/tagged_logger_proxy.rb:24:in `block in tag'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:71:in `block in tagged'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:28:in `tagged'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:71:in `tagged'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/connection/tagged_logger_proxy.rb:24:in `tag'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker/active_record_connection_management.rb:16:in `with_database_connections'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/engine.rb:62:in `block (4 levels) in <class:Engine>'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/execution_wrapper.rb:87:in `wrap'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/engine.rb:57:in `block (3 levels) in <class:Engine>'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:118:in `instance_exec'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:136:in `run_callbacks'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:40:in `work'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:58:in `invoke'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:53:in `block in async_invoke'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:348:in `run_task'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:337:in `block (3 levels) in create_worker'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `loop'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `block (2 levels) in create_worker'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `catch'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `block in create_worker'
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-22 14:53:57 -0400
+Started GET "/cable" for 127.0.0.1 at 2018-08-22 14:53:57 -0400
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-22 14:53:57 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-22 14:54:08 -0400
+Started GET "/cable" for 127.0.0.1 at 2018-08-22 14:54:11 -0400
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-22 14:54:11 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-22 14:55:26 -0400
+Started GET "/cable" for 127.0.0.1 at 2018-08-22 14:55:26 -0400
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-22 14:55:26 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Received unrecognized command in {"type"=>"message", "text"=>"test text"}
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-22 14:57:03 -0400
+Started GET "/cable" for 127.0.0.1 at 2018-08-22 14:57:03 -0400
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-22 14:57:03 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Received unrecognized command in {"type"=>"message", "text"=>"test text"}
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-22 14:58:09 -0400
+Started GET "/cable" for 127.0.0.1 at 2018-08-22 14:58:09 -0400
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-22 14:58:09 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Received unrecognized command in {"type"=>"message", "text"=>"test text"}
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-22 14:58:23 -0400
+Started GET "/cable" for 127.0.0.1 at 2018-08-22 14:58:23 -0400
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-22 14:58:23 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Received unrecognized command in {"type"=>"message", "text"=>"test text"}
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-22 14:58:33 -0400
+Started GET "/cable" for 127.0.0.1 at 2018-08-22 14:58:33 -0400
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-22 14:58:33 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Received unrecognized command in {"type"=>"message", "text"=>"test text"}
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-22 14:58:54 -0400
+Started GET "/cable" for 127.0.0.1 at 2018-08-22 14:58:54 -0400
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-22 14:58:54 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Received unrecognized command in {"type"=>"message", "text"=>"test text"}
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-22 14:59:16 -0400
+Started GET "/cable" for 127.0.0.1 at 2018-08-22 14:59:16 -0400
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-22 14:59:16 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Received unrecognized command in {"type"=>"message", "text"=>"test text"}
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-22 15:00:10 -0400
+Started GET "/cable" for 127.0.0.1 at 2018-08-22 15:00:10 -0400
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-22 15:00:10 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Received unrecognized command in {"type"=>"message", "text"=>"test text"}
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-22 15:11:34 -0400
+Started GET "/cable" for 127.0.0.1 at 2018-08-22 15:11:34 -0400
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-22 15:11:34 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-22 15:11:45 -0400
+Started GET "/cable" for 127.0.0.1 at 2018-08-22 15:11:45 -0400
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-22 15:11:45 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+There was an exception - JSON::ParserError(822: unexpected token at 'Connected.')
+/Users/dchung/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/json/common.rb:156:in `parse'
+/Users/dchung/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/json/common.rb:156:in `parse'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/json/decoding.rb:23:in `decode'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/connection/base.rb:164:in `decode'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/connection/base.rb:87:in `dispatch_websocket_message'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:60:in `block in invoke'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:41:in `block in work'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:109:in `block in run_callbacks'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker/active_record_connection_management.rb:16:in `block in with_database_connections'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/connection/tagged_logger_proxy.rb:24:in `block in tag'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:71:in `block in tagged'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:28:in `tagged'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:71:in `tagged'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/connection/tagged_logger_proxy.rb:24:in `tag'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker/active_record_connection_management.rb:16:in `with_database_connections'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/engine.rb:62:in `block (4 levels) in <class:Engine>'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/execution_wrapper.rb:87:in `wrap'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/engine.rb:57:in `block (3 levels) in <class:Engine>'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:118:in `instance_exec'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:136:in `run_callbacks'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:40:in `work'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:58:in `invoke'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:53:in `block in async_invoke'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:348:in `run_task'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:337:in `block (3 levels) in create_worker'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `loop'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `block (2 levels) in create_worker'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `catch'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `block in create_worker'
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-22 15:12:14 -0400
+Started GET "/cable" for 127.0.0.1 at 2018-08-22 15:12:14 -0400
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-22 15:12:14 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+There was an exception - JSON::ParserError(822: unexpected token at 'Connected.')
+/Users/dchung/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/json/common.rb:156:in `parse'
+/Users/dchung/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/json/common.rb:156:in `parse'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/json/decoding.rb:23:in `decode'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/connection/base.rb:164:in `decode'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/connection/base.rb:87:in `dispatch_websocket_message'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:60:in `block in invoke'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:41:in `block in work'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:109:in `block in run_callbacks'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker/active_record_connection_management.rb:16:in `block in with_database_connections'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/connection/tagged_logger_proxy.rb:24:in `block in tag'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:71:in `block in tagged'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:28:in `tagged'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:71:in `tagged'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/connection/tagged_logger_proxy.rb:24:in `tag'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker/active_record_connection_management.rb:16:in `with_database_connections'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/engine.rb:62:in `block (4 levels) in <class:Engine>'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/execution_wrapper.rb:87:in `wrap'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/engine.rb:57:in `block (3 levels) in <class:Engine>'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:118:in `instance_exec'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:136:in `run_callbacks'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:40:in `work'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:58:in `invoke'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:53:in `block in async_invoke'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:348:in `run_task'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:337:in `block (3 levels) in create_worker'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `loop'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `block (2 levels) in create_worker'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `catch'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `block in create_worker'
+Received unrecognized command in ""
+Received unrecognized command in ""
+Received unrecognized command in ""
+Received unrecognized command in ""
+Received unrecognized command in ""
+Received unrecognized command in "testing"
+Received unrecognized command in "testing"
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-22 15:14:06 -0400
+Started GET "/cable" for 127.0.0.1 at 2018-08-22 15:14:06 -0400
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-22 15:14:06 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+There was an exception - JSON::ParserError(822: unexpected token at 'Connected.')
+/Users/dchung/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/json/common.rb:156:in `parse'
+/Users/dchung/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/json/common.rb:156:in `parse'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/json/decoding.rb:23:in `decode'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/connection/base.rb:164:in `decode'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/connection/base.rb:87:in `dispatch_websocket_message'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:60:in `block in invoke'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:41:in `block in work'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:109:in `block in run_callbacks'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker/active_record_connection_management.rb:16:in `block in with_database_connections'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/connection/tagged_logger_proxy.rb:24:in `block in tag'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:71:in `block in tagged'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:28:in `tagged'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:71:in `tagged'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/connection/tagged_logger_proxy.rb:24:in `tag'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker/active_record_connection_management.rb:16:in `with_database_connections'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/engine.rb:62:in `block (4 levels) in <class:Engine>'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/execution_wrapper.rb:87:in `wrap'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/engine.rb:57:in `block (3 levels) in <class:Engine>'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:118:in `instance_exec'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:136:in `run_callbacks'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:40:in `work'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:58:in `invoke'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:53:in `block in async_invoke'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:348:in `run_task'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:337:in `block (3 levels) in create_worker'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `loop'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `block (2 levels) in create_worker'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `catch'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `block in create_worker'
+There was an exception - JSON::ParserError(822: unexpected token at 'Hello!')
+/Users/dchung/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/json/common.rb:156:in `parse'
+/Users/dchung/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/json/common.rb:156:in `parse'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/json/decoding.rb:23:in `decode'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/connection/base.rb:164:in `decode'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/connection/base.rb:87:in `dispatch_websocket_message'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:60:in `block in invoke'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:41:in `block in work'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:109:in `block in run_callbacks'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker/active_record_connection_management.rb:16:in `block in with_database_connections'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/connection/tagged_logger_proxy.rb:24:in `block in tag'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:71:in `block in tagged'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:28:in `tagged'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:71:in `tagged'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/connection/tagged_logger_proxy.rb:24:in `tag'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker/active_record_connection_management.rb:16:in `with_database_connections'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/engine.rb:62:in `block (4 levels) in <class:Engine>'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/execution_wrapper.rb:87:in `wrap'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/engine.rb:57:in `block (3 levels) in <class:Engine>'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:118:in `instance_exec'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:136:in `run_callbacks'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:40:in `work'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:58:in `invoke'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:53:in `block in async_invoke'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:348:in `run_task'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:337:in `block (3 levels) in create_worker'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `loop'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `block (2 levels) in create_worker'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `catch'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `block in create_worker'
+There was an exception - JSON::ParserError(822: unexpected token at 'Hello!')
+/Users/dchung/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/json/common.rb:156:in `parse'
+/Users/dchung/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/json/common.rb:156:in `parse'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/json/decoding.rb:23:in `decode'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/connection/base.rb:164:in `decode'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/connection/base.rb:87:in `dispatch_websocket_message'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:60:in `block in invoke'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:41:in `block in work'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:109:in `block in run_callbacks'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker/active_record_connection_management.rb:16:in `block in with_database_connections'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/connection/tagged_logger_proxy.rb:24:in `block in tag'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:71:in `block in tagged'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:28:in `tagged'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:71:in `tagged'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/connection/tagged_logger_proxy.rb:24:in `tag'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker/active_record_connection_management.rb:16:in `with_database_connections'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/engine.rb:62:in `block (4 levels) in <class:Engine>'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/execution_wrapper.rb:87:in `wrap'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/engine.rb:57:in `block (3 levels) in <class:Engine>'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:118:in `instance_exec'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:136:in `run_callbacks'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:40:in `work'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:58:in `invoke'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:53:in `block in async_invoke'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:348:in `run_task'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:337:in `block (3 levels) in create_worker'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `loop'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `block (2 levels) in create_worker'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `catch'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `block in create_worker'
+There was an exception - JSON::ParserError(822: unexpected token at 'Hello!')
+/Users/dchung/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/json/common.rb:156:in `parse'
+/Users/dchung/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/json/common.rb:156:in `parse'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/json/decoding.rb:23:in `decode'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/connection/base.rb:164:in `decode'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/connection/base.rb:87:in `dispatch_websocket_message'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:60:in `block in invoke'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:41:in `block in work'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:109:in `block in run_callbacks'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker/active_record_connection_management.rb:16:in `block in with_database_connections'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/connection/tagged_logger_proxy.rb:24:in `block in tag'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:71:in `block in tagged'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:28:in `tagged'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:71:in `tagged'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/connection/tagged_logger_proxy.rb:24:in `tag'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker/active_record_connection_management.rb:16:in `with_database_connections'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/engine.rb:62:in `block (4 levels) in <class:Engine>'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/execution_wrapper.rb:87:in `wrap'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/engine.rb:57:in `block (3 levels) in <class:Engine>'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:118:in `instance_exec'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:136:in `run_callbacks'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:40:in `work'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:58:in `invoke'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:53:in `block in async_invoke'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:348:in `run_task'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:337:in `block (3 levels) in create_worker'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `loop'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `block (2 levels) in create_worker'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `catch'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `block in create_worker'
+There was an exception - JSON::ParserError(822: unexpected token at 'Hello!')
+/Users/dchung/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/json/common.rb:156:in `parse'
+/Users/dchung/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/json/common.rb:156:in `parse'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/json/decoding.rb:23:in `decode'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/connection/base.rb:164:in `decode'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/connection/base.rb:87:in `dispatch_websocket_message'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:60:in `block in invoke'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:41:in `block in work'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:109:in `block in run_callbacks'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker/active_record_connection_management.rb:16:in `block in with_database_connections'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/connection/tagged_logger_proxy.rb:24:in `block in tag'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:71:in `block in tagged'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:28:in `tagged'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:71:in `tagged'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/connection/tagged_logger_proxy.rb:24:in `tag'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker/active_record_connection_management.rb:16:in `with_database_connections'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/engine.rb:62:in `block (4 levels) in <class:Engine>'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/execution_wrapper.rb:87:in `wrap'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/engine.rb:57:in `block (3 levels) in <class:Engine>'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:118:in `instance_exec'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:136:in `run_callbacks'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:40:in `work'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:58:in `invoke'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:53:in `block in async_invoke'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:348:in `run_task'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:337:in `block (3 levels) in create_worker'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `loop'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `block (2 levels) in create_worker'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `catch'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `block in create_worker'
+There was an exception - JSON::ParserError(822: unexpected token at 'Hello!')
+/Users/dchung/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/json/common.rb:156:in `parse'
+/Users/dchung/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/json/common.rb:156:in `parse'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/json/decoding.rb:23:in `decode'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/connection/base.rb:164:in `decode'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/connection/base.rb:87:in `dispatch_websocket_message'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:60:in `block in invoke'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:41:in `block in work'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:109:in `block in run_callbacks'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker/active_record_connection_management.rb:16:in `block in with_database_connections'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/connection/tagged_logger_proxy.rb:24:in `block in tag'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:71:in `block in tagged'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:28:in `tagged'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:71:in `tagged'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/connection/tagged_logger_proxy.rb:24:in `tag'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker/active_record_connection_management.rb:16:in `with_database_connections'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/engine.rb:62:in `block (4 levels) in <class:Engine>'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/execution_wrapper.rb:87:in `wrap'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/engine.rb:57:in `block (3 levels) in <class:Engine>'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:118:in `instance_exec'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:136:in `run_callbacks'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:40:in `work'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:58:in `invoke'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:53:in `block in async_invoke'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:348:in `run_task'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:337:in `block (3 levels) in create_worker'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `loop'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `block (2 levels) in create_worker'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `catch'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `block in create_worker'
+There was an exception - JSON::ParserError(822: unexpected token at 'Hello!')
+/Users/dchung/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/json/common.rb:156:in `parse'
+/Users/dchung/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/json/common.rb:156:in `parse'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/json/decoding.rb:23:in `decode'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/connection/base.rb:164:in `decode'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/connection/base.rb:87:in `dispatch_websocket_message'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:60:in `block in invoke'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:41:in `block in work'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:109:in `block in run_callbacks'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker/active_record_connection_management.rb:16:in `block in with_database_connections'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/connection/tagged_logger_proxy.rb:24:in `block in tag'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:71:in `block in tagged'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:28:in `tagged'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:71:in `tagged'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/connection/tagged_logger_proxy.rb:24:in `tag'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker/active_record_connection_management.rb:16:in `with_database_connections'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/engine.rb:62:in `block (4 levels) in <class:Engine>'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/execution_wrapper.rb:87:in `wrap'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/engine.rb:57:in `block (3 levels) in <class:Engine>'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:118:in `instance_exec'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:136:in `run_callbacks'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:40:in `work'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:58:in `invoke'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:53:in `block in async_invoke'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:348:in `run_task'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:337:in `block (3 levels) in create_worker'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `loop'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `block (2 levels) in create_worker'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `catch'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `block in create_worker'
+There was an exception - JSON::ParserError(822: unexpected token at 'Hello!')
+/Users/dchung/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/json/common.rb:156:in `parse'
+/Users/dchung/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/json/common.rb:156:in `parse'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/json/decoding.rb:23:in `decode'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/connection/base.rb:164:in `decode'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/connection/base.rb:87:in `dispatch_websocket_message'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:60:in `block in invoke'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:41:in `block in work'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:109:in `block in run_callbacks'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker/active_record_connection_management.rb:16:in `block in with_database_connections'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/connection/tagged_logger_proxy.rb:24:in `block in tag'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:71:in `block in tagged'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:28:in `tagged'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:71:in `tagged'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/connection/tagged_logger_proxy.rb:24:in `tag'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker/active_record_connection_management.rb:16:in `with_database_connections'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/engine.rb:62:in `block (4 levels) in <class:Engine>'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/execution_wrapper.rb:87:in `wrap'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/engine.rb:57:in `block (3 levels) in <class:Engine>'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:118:in `instance_exec'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:136:in `run_callbacks'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:40:in `work'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:58:in `invoke'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:53:in `block in async_invoke'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:348:in `run_task'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:337:in `block (3 levels) in create_worker'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `loop'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `block (2 levels) in create_worker'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `catch'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `block in create_worker'
+There was an exception - JSON::ParserError(822: unexpected token at 'Hello!')
+/Users/dchung/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/json/common.rb:156:in `parse'
+/Users/dchung/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/json/common.rb:156:in `parse'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/json/decoding.rb:23:in `decode'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/connection/base.rb:164:in `decode'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/connection/base.rb:87:in `dispatch_websocket_message'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:60:in `block in invoke'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:41:in `block in work'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:109:in `block in run_callbacks'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker/active_record_connection_management.rb:16:in `block in with_database_connections'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/connection/tagged_logger_proxy.rb:24:in `block in tag'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:71:in `block in tagged'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:28:in `tagged'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:71:in `tagged'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/connection/tagged_logger_proxy.rb:24:in `tag'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker/active_record_connection_management.rb:16:in `with_database_connections'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/engine.rb:62:in `block (4 levels) in <class:Engine>'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/execution_wrapper.rb:87:in `wrap'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/engine.rb:57:in `block (3 levels) in <class:Engine>'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:118:in `instance_exec'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:136:in `run_callbacks'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:40:in `work'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:58:in `invoke'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:53:in `block in async_invoke'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:348:in `run_task'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:337:in `block (3 levels) in create_worker'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `loop'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `block (2 levels) in create_worker'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `catch'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `block in create_worker'
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-22 15:20:06 -0400
+Started GET "/cable" for 127.0.0.1 at 2018-08-22 15:20:06 -0400
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-22 15:20:06 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+There was an exception - JSON::ParserError(822: unexpected token at 'Connected.')
+/Users/dchung/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/json/common.rb:156:in `parse'
+/Users/dchung/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/json/common.rb:156:in `parse'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/json/decoding.rb:23:in `decode'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/connection/base.rb:164:in `decode'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/connection/base.rb:87:in `dispatch_websocket_message'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:60:in `block in invoke'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:41:in `block in work'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:109:in `block in run_callbacks'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker/active_record_connection_management.rb:16:in `block in with_database_connections'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/connection/tagged_logger_proxy.rb:24:in `block in tag'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:71:in `block in tagged'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:28:in `tagged'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:71:in `tagged'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/connection/tagged_logger_proxy.rb:24:in `tag'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker/active_record_connection_management.rb:16:in `with_database_connections'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/engine.rb:62:in `block (4 levels) in <class:Engine>'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/execution_wrapper.rb:87:in `wrap'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/engine.rb:57:in `block (3 levels) in <class:Engine>'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:118:in `instance_exec'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:136:in `run_callbacks'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:40:in `work'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:58:in `invoke'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:53:in `block in async_invoke'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:348:in `run_task'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:337:in `block (3 levels) in create_worker'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `loop'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `block (2 levels) in create_worker'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `catch'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `block in create_worker'
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-22 15:20:26 -0400
+Started GET "/cable" for 127.0.0.1 at 2018-08-22 15:20:26 -0400
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-22 15:20:26 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+There was an exception - JSON::ParserError(822: unexpected token at 'Connected.')
+/Users/dchung/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/json/common.rb:156:in `parse'
+/Users/dchung/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/json/common.rb:156:in `parse'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/json/decoding.rb:23:in `decode'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/connection/base.rb:164:in `decode'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/connection/base.rb:87:in `dispatch_websocket_message'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:60:in `block in invoke'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:41:in `block in work'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:109:in `block in run_callbacks'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker/active_record_connection_management.rb:16:in `block in with_database_connections'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/connection/tagged_logger_proxy.rb:24:in `block in tag'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:71:in `block in tagged'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:28:in `tagged'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:71:in `tagged'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/connection/tagged_logger_proxy.rb:24:in `tag'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker/active_record_connection_management.rb:16:in `with_database_connections'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/engine.rb:62:in `block (4 levels) in <class:Engine>'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/execution_wrapper.rb:87:in `wrap'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/engine.rb:57:in `block (3 levels) in <class:Engine>'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:118:in `instance_exec'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:136:in `run_callbacks'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:40:in `work'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:58:in `invoke'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:53:in `block in async_invoke'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:348:in `run_task'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:337:in `block (3 levels) in create_worker'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `loop'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `block (2 levels) in create_worker'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `catch'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `block in create_worker'
+There was an exception - JSON::ParserError(419: unexpected token at 'object Object]')
+/Users/dchung/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/json/common.rb:156:in `parse'
+/Users/dchung/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/json/common.rb:156:in `parse'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/json/decoding.rb:23:in `decode'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/connection/base.rb:164:in `decode'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/connection/base.rb:87:in `dispatch_websocket_message'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:60:in `block in invoke'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:41:in `block in work'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:109:in `block in run_callbacks'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker/active_record_connection_management.rb:16:in `block in with_database_connections'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/connection/tagged_logger_proxy.rb:24:in `block in tag'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:71:in `block in tagged'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:28:in `tagged'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:71:in `tagged'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/connection/tagged_logger_proxy.rb:24:in `tag'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker/active_record_connection_management.rb:16:in `with_database_connections'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/engine.rb:62:in `block (4 levels) in <class:Engine>'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/execution_wrapper.rb:87:in `wrap'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/engine.rb:57:in `block (3 levels) in <class:Engine>'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:118:in `instance_exec'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:136:in `run_callbacks'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:40:in `work'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:58:in `invoke'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:53:in `block in async_invoke'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:348:in `run_task'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:337:in `block (3 levels) in create_worker'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `loop'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `block (2 levels) in create_worker'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `catch'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `block in create_worker'
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-22 15:20:57 -0400
+Started GET "/cable" for 127.0.0.1 at 2018-08-22 15:20:57 -0400
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-22 15:20:57 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+There was an exception - JSON::ParserError(822: unexpected token at 'Connected.')
+/Users/dchung/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/json/common.rb:156:in `parse'
+/Users/dchung/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/json/common.rb:156:in `parse'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/json/decoding.rb:23:in `decode'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/connection/base.rb:164:in `decode'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/connection/base.rb:87:in `dispatch_websocket_message'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:60:in `block in invoke'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:41:in `block in work'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:109:in `block in run_callbacks'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker/active_record_connection_management.rb:16:in `block in with_database_connections'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/connection/tagged_logger_proxy.rb:24:in `block in tag'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:71:in `block in tagged'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:28:in `tagged'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:71:in `tagged'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/connection/tagged_logger_proxy.rb:24:in `tag'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker/active_record_connection_management.rb:16:in `with_database_connections'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/engine.rb:62:in `block (4 levels) in <class:Engine>'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/execution_wrapper.rb:87:in `wrap'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/engine.rb:57:in `block (3 levels) in <class:Engine>'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:118:in `instance_exec'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:136:in `run_callbacks'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:40:in `work'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:58:in `invoke'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:53:in `block in async_invoke'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:348:in `run_task'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:337:in `block (3 levels) in create_worker'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `loop'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `block (2 levels) in create_worker'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `catch'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `block in create_worker'
+There was an exception - JSON::ParserError(419: unexpected token at 'object Object]')
+/Users/dchung/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/json/common.rb:156:in `parse'
+/Users/dchung/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/json/common.rb:156:in `parse'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/json/decoding.rb:23:in `decode'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/connection/base.rb:164:in `decode'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/connection/base.rb:87:in `dispatch_websocket_message'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:60:in `block in invoke'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:41:in `block in work'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:109:in `block in run_callbacks'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker/active_record_connection_management.rb:16:in `block in with_database_connections'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/connection/tagged_logger_proxy.rb:24:in `block in tag'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:71:in `block in tagged'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:28:in `tagged'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:71:in `tagged'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/connection/tagged_logger_proxy.rb:24:in `tag'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker/active_record_connection_management.rb:16:in `with_database_connections'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/engine.rb:62:in `block (4 levels) in <class:Engine>'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/execution_wrapper.rb:87:in `wrap'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/engine.rb:57:in `block (3 levels) in <class:Engine>'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:118:in `instance_exec'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:136:in `run_callbacks'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:40:in `work'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:58:in `invoke'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:53:in `block in async_invoke'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:348:in `run_task'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:337:in `block (3 levels) in create_worker'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `loop'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `block (2 levels) in create_worker'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `catch'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `block in create_worker'
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-22 15:21:21 -0400
+Started GET "/cable" for 127.0.0.1 at 2018-08-22 15:21:21 -0400
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-22 15:21:21 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+There was an exception - JSON::ParserError(419: unexpected token at 'object Object]')
+/Users/dchung/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/json/common.rb:156:in `parse'
+/Users/dchung/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/json/common.rb:156:in `parse'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/json/decoding.rb:23:in `decode'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/connection/base.rb:164:in `decode'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/connection/base.rb:87:in `dispatch_websocket_message'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:60:in `block in invoke'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:41:in `block in work'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:109:in `block in run_callbacks'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker/active_record_connection_management.rb:16:in `block in with_database_connections'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/connection/tagged_logger_proxy.rb:24:in `block in tag'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:71:in `block in tagged'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:28:in `tagged'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:71:in `tagged'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/connection/tagged_logger_proxy.rb:24:in `tag'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker/active_record_connection_management.rb:16:in `with_database_connections'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/engine.rb:62:in `block (4 levels) in <class:Engine>'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/execution_wrapper.rb:87:in `wrap'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/engine.rb:57:in `block (3 levels) in <class:Engine>'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:118:in `instance_exec'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:136:in `run_callbacks'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:40:in `work'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:58:in `invoke'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:53:in `block in async_invoke'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:348:in `run_task'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:337:in `block (3 levels) in create_worker'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `loop'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `block (2 levels) in create_worker'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `catch'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `block in create_worker'
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-22 15:21:42 -0400
+Started GET "/cable" for 127.0.0.1 at 2018-08-22 15:21:42 -0400
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-22 15:21:42 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+ChatMessagesChannel is transmitting the subscription confirmation
+ChatMessagesChannel is streaming from chat_messages_channel
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-22 15:22:20 -0400
+ChatMessagesChannel stopped streaming from chat_messages_channel
+Started GET "/cable" for 127.0.0.1 at 2018-08-22 15:22:20 -0400
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-22 15:22:20 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Could not execute command from ({"command"=>"subscribe", "identifier"=>{"channel"=>"ChatMessagesChannel"}}) [TypeError - no implicit conversion of Hash into String]: /Users/dchung/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/json/common.rb:156:in `initialize' | /Users/dchung/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/json/common.rb:156:in `new' | /Users/dchung/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/json/common.rb:156:in `parse' | /Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/json/decoding.rb:23:in `decode' | /Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/connection/subscriptions.rb:29:in `add'
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-22 15:22:36 -0400
+Started GET "/cable" for 127.0.0.1 at 2018-08-22 15:22:49 -0400
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-22 15:22:49 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+ChatMessagesChannel is transmitting the subscription confirmation
+ChatMessagesChannel is streaming from chat_messages_channel
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-22 15:23:25 -0400
+ChatMessagesChannel stopped streaming from chat_messages_channel
+Started GET "/cable" for 127.0.0.1 at 2018-08-22 15:23:25 -0400
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-22 15:23:25 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+ChatMessagesChannel is transmitting the subscription confirmation
+ChatMessagesChannel is streaming from chat_messages_channel
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-22 15:23:50 -0400
+ChatMessagesChannel stopped streaming from chat_messages_channel
+Started GET "/cable" for 127.0.0.1 at 2018-08-22 15:23:50 -0400
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-22 15:23:50 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Could not execute command from ({"command"=>"subscribe", "identifier"=>"{ channel: \"ChatMessagesChannel\"}"}) [JSON::ParserError - 822: unexpected token at '{ channel: "ChatMessagesChannel"}']: /Users/dchung/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/json/common.rb:156:in `parse' | /Users/dchung/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/json/common.rb:156:in `parse' | /Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/json/decoding.rb:23:in `decode' | /Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/connection/subscriptions.rb:29:in `add' | /Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/connection/subscriptions.rb:17:in `execute_command'
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-22 15:23:57 -0400
+Started GET "/cable" for 127.0.0.1 at 2018-08-22 15:23:57 -0400
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-22 15:23:57 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+ChatMessagesChannel is transmitting the subscription confirmation
+ChatMessagesChannel is streaming from chat_messages_channel
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-22 15:25:37 -0400
+ChatMessagesChannel stopped streaming from chat_messages_channel
+Started GET "/cable" for 127.0.0.1 at 2018-08-22 15:25:37 -0400
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-22 15:25:37 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Received unrecognized command in {"command"=>"subscribed", "identifier"=>{"channel"=>"ChatMessagesChannel"}}
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-22 15:25:53 -0400
+Started GET "/cable" for 127.0.0.1 at 2018-08-22 15:25:53 -0400
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-22 15:25:53 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Received unrecognized command in {"command"=>"subscribed", "identifier"=>{"channel"=>"ChatMessagesChannel"}}
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-22 15:26:49 -0400
+Started GET "/cable" for 127.0.0.1 at 2018-08-22 15:26:49 -0400
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-22 15:26:49 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Received unrecognized command in {"command"=>"subscribed", "identifier"=>{"channel"=>"ChatMessagesChannel"}}
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-22 15:27:16 -0400
+Started GET "/cable" for 127.0.0.1 at 2018-08-22 15:27:16 -0400
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-22 15:27:16 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+Received unrecognized command in {"command"=>"subscribed", "identifier"=>{"channel"=>"ChatMessagesChannel"}}
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-22 15:27:49 -0400
+Started GET "/cable" for 127.0.0.1 at 2018-08-22 15:32:20 -0400
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-22 15:32:20 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+ChatMessagesChannel is transmitting the subscription confirmation
+ChatMessagesChannel is streaming from chat_messages_channel
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-22 15:32:53 -0400
+ChatMessagesChannel stopped streaming from chat_messages_channel
+Started GET "/cable" for 127.0.0.1 at 2018-08-22 15:32:53 -0400
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-22 15:32:53 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+ChatMessagesChannel is transmitting the subscription confirmation
+ChatMessagesChannel is streaming from chat_messages_channel
+There was an exception - JSON::ParserError(822: unexpected token at 'Hello!')
+/Users/dchung/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/json/common.rb:156:in `parse'
+/Users/dchung/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/json/common.rb:156:in `parse'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/json/decoding.rb:23:in `decode'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/connection/base.rb:164:in `decode'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/connection/base.rb:87:in `dispatch_websocket_message'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:60:in `block in invoke'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:41:in `block in work'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:109:in `block in run_callbacks'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker/active_record_connection_management.rb:16:in `block in with_database_connections'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/connection/tagged_logger_proxy.rb:24:in `block in tag'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:71:in `block in tagged'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:28:in `tagged'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:71:in `tagged'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/connection/tagged_logger_proxy.rb:24:in `tag'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker/active_record_connection_management.rb:16:in `with_database_connections'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/engine.rb:62:in `block (4 levels) in <class:Engine>'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/execution_wrapper.rb:87:in `wrap'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/engine.rb:57:in `block (3 levels) in <class:Engine>'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:118:in `instance_exec'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:136:in `run_callbacks'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:40:in `work'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:58:in `invoke'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:53:in `block in async_invoke'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:348:in `run_task'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:337:in `block (3 levels) in create_worker'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `loop'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `block (2 levels) in create_worker'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `catch'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `block in create_worker'
+There was an exception - JSON::ParserError(822: unexpected token at 'Hello!')
+/Users/dchung/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/json/common.rb:156:in `parse'
+/Users/dchung/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/json/common.rb:156:in `parse'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/json/decoding.rb:23:in `decode'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/connection/base.rb:164:in `decode'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/connection/base.rb:87:in `dispatch_websocket_message'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:60:in `block in invoke'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:41:in `block in work'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:109:in `block in run_callbacks'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker/active_record_connection_management.rb:16:in `block in with_database_connections'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/connection/tagged_logger_proxy.rb:24:in `block in tag'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:71:in `block in tagged'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:28:in `tagged'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:71:in `tagged'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/connection/tagged_logger_proxy.rb:24:in `tag'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker/active_record_connection_management.rb:16:in `with_database_connections'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/engine.rb:62:in `block (4 levels) in <class:Engine>'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/execution_wrapper.rb:87:in `wrap'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/engine.rb:57:in `block (3 levels) in <class:Engine>'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:118:in `instance_exec'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:136:in `run_callbacks'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:40:in `work'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:58:in `invoke'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:53:in `block in async_invoke'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:348:in `run_task'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:337:in `block (3 levels) in create_worker'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `loop'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `block (2 levels) in create_worker'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `catch'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `block in create_worker'
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-22 15:33:37 -0400
+ChatMessagesChannel stopped streaming from chat_messages_channel
+Started GET "/cable" for 127.0.0.1 at 2018-08-22 15:33:37 -0400
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-22 15:33:37 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+ChatMessagesChannel is transmitting the subscription confirmation
+ChatMessagesChannel is streaming from chat_messages_channel
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-22 15:34:32 -0400
+ChatMessagesChannel stopped streaming from chat_messages_channel
+Started GET "/cable" for 127.0.0.1 at 2018-08-22 15:34:32 -0400
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-22 15:34:32 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+ChatMessagesChannel is transmitting the subscription confirmation
+ChatMessagesChannel is streaming from chat_messages_channel
+There was an exception - JSON::ParserError(822: unexpected token at 'Hello!')
+/Users/dchung/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/json/common.rb:156:in `parse'
+/Users/dchung/.rvm/rubies/ruby-2.3.3/lib/ruby/2.3.0/json/common.rb:156:in `parse'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/json/decoding.rb:23:in `decode'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/connection/base.rb:164:in `decode'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/connection/base.rb:87:in `dispatch_websocket_message'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:60:in `block in invoke'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:41:in `block in work'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:109:in `block in run_callbacks'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker/active_record_connection_management.rb:16:in `block in with_database_connections'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/connection/tagged_logger_proxy.rb:24:in `block in tag'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:71:in `block in tagged'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:28:in `tagged'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/tagged_logging.rb:71:in `tagged'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/connection/tagged_logger_proxy.rb:24:in `tag'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker/active_record_connection_management.rb:16:in `with_database_connections'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/engine.rb:62:in `block (4 levels) in <class:Engine>'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/execution_wrapper.rb:87:in `wrap'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/engine.rb:57:in `block (3 levels) in <class:Engine>'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:118:in `instance_exec'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:118:in `block in run_callbacks'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/activesupport-5.2.1/lib/active_support/callbacks.rb:136:in `run_callbacks'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:40:in `work'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:58:in `invoke'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/actioncable-5.2.1/lib/action_cable/server/worker.rb:53:in `block in async_invoke'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:348:in `run_task'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:337:in `block (3 levels) in create_worker'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `loop'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:320:in `block (2 levels) in create_worker'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `catch'
+/Users/dchung/.rvm/gems/ruby-2.3.3/gems/concurrent-ruby-1.0.5/lib/concurrent/executor/ruby_thread_pool_executor.rb:319:in `block in create_worker'
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-22 15:36:34 -0400
+ChatMessagesChannel stopped streaming from chat_messages_channel
+Started GET "/cable" for 127.0.0.1 at 2018-08-22 15:36:34 -0400
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-22 15:36:34 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+ChatMessagesChannel is transmitting the subscription confirmation
+ChatMessagesChannel is streaming from chat_messages_channel
+Received unrecognized command in "Hello!"
+Received unrecognized command in "Hello!"
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-22 15:38:11 -0400
+ChatMessagesChannel stopped streaming from chat_messages_channel
+Started GET "/cable" for 127.0.0.1 at 2018-08-22 15:38:12 -0400
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-22 15:38:12 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+ChatMessagesChannel is transmitting the subscription confirmation
+ChatMessagesChannel is streaming from chat_messages_channel
+Unable to process ChatMessagesChannel#chat({"message"=>"hello"})
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-22 15:38:40 -0400
+ChatMessagesChannel stopped streaming from chat_messages_channel
+Started GET "/cable" for 127.0.0.1 at 2018-08-22 15:38:40 -0400
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-22 15:38:40 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+ChatMessagesChannel is transmitting the subscription confirmation
+ChatMessagesChannel is streaming from chat_messages_channel
+Unable to process ChatMessagesChannel#chat({"message"=>"hello"})
+Unable to process ChatMessagesChannel#chat({"message"=>"hello"})
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-22 15:39:59 -0400
+ChatMessagesChannel stopped streaming from chat_messages_channel
+Started GET "/cable" for 127.0.0.1 at 2018-08-22 15:40:00 -0400
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-22 15:40:00 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+ChatMessagesChannel is transmitting the subscription confirmation
+ChatMessagesChannel is streaming from chat_messages_channel
+ChatMessagesChannel#chat({"message"=>"hello"})
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-22 15:41:57 -0400
+ChatMessagesChannel stopped streaming from chat_messages_channel
+Started GET "/cable" for 127.0.0.1 at 2018-08-22 15:41:57 -0400
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-22 15:41:57 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+ChatMessagesChannel is transmitting the subscription confirmation
+ChatMessagesChannel is streaming from chat_messages_channel
+Received unrecognized command in {"identifier"=>"{\"channel\":\"ChatMessagesChannel\"}", "action"=>"chat"}
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-22 15:42:48 -0400
+ChatMessagesChannel stopped streaming from chat_messages_channel
+Started GET "/cable" for 127.0.0.1 at 2018-08-22 15:42:48 -0400
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-22 15:42:48 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+ChatMessagesChannel is transmitting the subscription confirmation
+ChatMessagesChannel is streaming from chat_messages_channel
+Received unrecognized command in {"identifier"=>"{\"channel\":\"ChatMessagesChannel\"}", "data"=>"{\"action\": \"chat\"}"}
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-22 15:43:07 -0400
+ChatMessagesChannel stopped streaming from chat_messages_channel
+Started GET "/cable" for 127.0.0.1 at 2018-08-22 15:43:07 -0400
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-22 15:43:07 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+ChatMessagesChannel is transmitting the subscription confirmation
+ChatMessagesChannel is streaming from chat_messages_channel
+Received unrecognized command in {"identifier"=>"{\"channel\":\"ChatMessagesChannel\"}", "data"=>"{\"action\": \"chat\"}"}
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-22 15:43:40 -0400
+ChatMessagesChannel stopped streaming from chat_messages_channel
+Started GET "/cable" for 127.0.0.1 at 2018-08-22 15:43:40 -0400
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-22 15:43:40 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+ChatMessagesChannel is transmitting the subscription confirmation
+ChatMessagesChannel is streaming from chat_messages_channel
+ChatMessagesChannel#chat
