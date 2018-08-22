@@ -16,14 +16,14 @@ Message.destroy_all
   channel = Channel.create(name: Faker::GameOfThrones.house)
 }
 
-30.times {
+50.times {
   user = User.create(username: Faker::GameOfThrones.character )
 }
 
 50.times {
   message = Message.create(
     content: Faker::GameOfThrones.quote,
-    user_id: Random.rand(40),
+    user_id: Random.rand(50),
     channel_id: Random.rand(40)
   )
 }

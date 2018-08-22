@@ -3158,3 +3158,148 @@ Processing by MessagesController#index as HTML
 Completed 200 OK in 56ms (Views: 49.8ms | ActiveRecord: 6.2ms)
 
 
+Started GET "/users" for 127.0.0.1 at 2018-08-22 13:30:14 -0400
+  [1m[35m (1.2ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/owner/.rvm/gems/ruby-2.3.3/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by UsersController#index as HTML
+  [1m[36mUser Load (0.8ms)[0m  [1m[34mSELECT "users".* FROM "users"[0m
+  ↳ app/controllers/users_controller.rb:8
+[active_model_serializers]   [1m[36mMessage Load (0.3ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."user_id" = $1[0m  [["user_id", 1]]
+[active_model_serializers]   ↳ app/controllers/users_controller.rb:8
+[active_model_serializers]   [1m[36mChannel Load (1.6ms)[0m  [1m[34mSELECT "channels".* FROM "channels" INNER JOIN "messages" ON "channels"."id" = "messages"."channel_id" WHERE "messages"."user_id" = $1[0m  [["user_id", 1]]
+[active_model_serializers]   ↳ app/controllers/users_controller.rb:8
+[active_model_serializers]   [1m[36mMessage Load (1.2ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."user_id" = $1[0m  [["user_id", 2]]
+[active_model_serializers]   ↳ app/controllers/users_controller.rb:8
+[active_model_serializers]   [1m[36mChannel Load (0.4ms)[0m  [1m[34mSELECT "channels".* FROM "channels" INNER JOIN "messages" ON "channels"."id" = "messages"."channel_id" WHERE "messages"."user_id" = $1[0m  [["user_id", 2]]
+[active_model_serializers]   ↳ app/controllers/users_controller.rb:8
+[active_model_serializers]   [1m[36mMessage Load (0.3ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."user_id" = $1[0m  [["user_id", 3]]
+[active_model_serializers]   ↳ app/controllers/users_controller.rb:8
+[active_model_serializers]   [1m[36mChannel Load (0.4ms)[0m  [1m[34mSELECT "channels".* FROM "channels" INNER JOIN "messages" ON "channels"."id" = "messages"."channel_id" WHERE "messages"."user_id" = $1[0m  [["user_id", 3]]
+[active_model_serializers]   ↳ app/controllers/users_controller.rb:8
+[active_model_serializers]   [1m[36mMessage Load (0.3ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."user_id" = $1[0m  [["user_id", 4]]
+[active_model_serializers]   ↳ app/controllers/users_controller.rb:8
+[active_model_serializers]   [1m[36mChannel Load (0.8ms)[0m  [1m[34mSELECT "channels".* FROM "channels" INNER JOIN "messages" ON "channels"."id" = "messages"."channel_id" WHERE "messages"."user_id" = $1[0m  [["user_id", 4]]
+[active_model_serializers]   ↳ app/controllers/users_controller.rb:8
+[active_model_serializers]   [1m[36mMessage Load (0.4ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."user_id" = $1[0m  [["user_id", 5]]
+[active_model_serializers]   ↳ app/controllers/users_controller.rb:8
+[active_model_serializers]   [1m[36mChannel Load (0.4ms)[0m  [1m[34mSELECT "channels".* FROM "channels" INNER JOIN "messages" ON "channels"."id" = "messages"."channel_id" WHERE "messages"."user_id" = $1[0m  [["user_id", 5]]
+[active_model_serializers]   ↳ app/controllers/users_controller.rb:8
+[active_model_serializers]   [1m[36mMessage Load (0.3ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."user_id" = $1[0m  [["user_id", 6]]
+[active_model_serializers]   ↳ app/controllers/users_controller.rb:8
+[active_model_serializers]   [1m[36mChannel Load (0.4ms)[0m  [1m[34mSELECT "channels".* FROM "channels" INNER JOIN "messages" ON "channels"."id" = "messages"."channel_id" WHERE "messages"."user_id" = $1[0m  [["user_id", 6]]
+[active_model_serializers]   ↳ app/controllers/users_controller.rb:8
+[active_model_serializers]   [1m[36mMessage Load (0.3ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."user_id" = $1[0m  [["user_id", 7]]
+[active_model_serializers]   ↳ app/controllers/users_controller.rb:8
+[active_model_serializers]   [1m[36mChannel Load (0.2ms)[0m  [1m[34mSELECT "channels".* FROM "channels" INNER JOIN "messages" ON "channels"."id" = "messages"."channel_id" WHERE "messages"."user_id" = $1[0m  [["user_id", 7]]
+[active_model_serializers]   ↳ app/controllers/users_controller.rb:8
+[active_model_serializers]   [1m[36mMessage Load (0.2ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."user_id" = $1[0m  [["user_id", 8]]
+[active_model_serializers]   ↳ app/controllers/users_controller.rb:8
+[active_model_serializers]   [1m[36mChannel Load (0.3ms)[0m  [1m[34mSELECT "channels".* FROM "channels" INNER JOIN "messages" ON "channels"."id" = "messages"."channel_id" WHERE "messages"."user_id" = $1[0m  [["user_id", 8]]
+[active_model_serializers]   ↳ app/controllers/users_controller.rb:8
+[active_model_serializers]   [1m[36mMessage Load (0.3ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."user_id" = $1[0m  [["user_id", 9]]
+[active_model_serializers]   ↳ app/controllers/users_controller.rb:8
+[active_model_serializers]   [1m[36mChannel Load (0.2ms)[0m  [1m[34mSELECT "channels".* FROM "channels" INNER JOIN "messages" ON "channels"."id" = "messages"."channel_id" WHERE "messages"."user_id" = $1[0m  [["user_id", 9]]
+[active_model_serializers]   ↳ app/controllers/users_controller.rb:8
+[active_model_serializers]   [1m[36mMessage Load (0.2ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."user_id" = $1[0m  [["user_id", 10]]
+[active_model_serializers]   ↳ app/controllers/users_controller.rb:8
+[active_model_serializers]   [1m[36mChannel Load (0.2ms)[0m  [1m[34mSELECT "channels".* FROM "channels" INNER JOIN "messages" ON "channels"."id" = "messages"."channel_id" WHERE "messages"."user_id" = $1[0m  [["user_id", 10]]
+[active_model_serializers]   ↳ app/controllers/users_controller.rb:8
+[active_model_serializers]   [1m[36mMessage Load (0.2ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."user_id" = $1[0m  [["user_id", 11]]
+[active_model_serializers]   ↳ app/controllers/users_controller.rb:8
+[active_model_serializers]   [1m[36mChannel Load (0.2ms)[0m  [1m[34mSELECT "channels".* FROM "channels" INNER JOIN "messages" ON "channels"."id" = "messages"."channel_id" WHERE "messages"."user_id" = $1[0m  [["user_id", 11]]
+[active_model_serializers]   ↳ app/controllers/users_controller.rb:8
+[active_model_serializers]   [1m[36mMessage Load (0.3ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."user_id" = $1[0m  [["user_id", 12]]
+[active_model_serializers]   ↳ app/controllers/users_controller.rb:8
+[active_model_serializers]   [1m[36mChannel Load (0.3ms)[0m  [1m[34mSELECT "channels".* FROM "channels" INNER JOIN "messages" ON "channels"."id" = "messages"."channel_id" WHERE "messages"."user_id" = $1[0m  [["user_id", 12]]
+[active_model_serializers]   ↳ app/controllers/users_controller.rb:8
+[active_model_serializers]   [1m[36mMessage Load (0.2ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."user_id" = $1[0m  [["user_id", 13]]
+[active_model_serializers]   ↳ app/controllers/users_controller.rb:8
+[active_model_serializers]   [1m[36mChannel Load (0.3ms)[0m  [1m[34mSELECT "channels".* FROM "channels" INNER JOIN "messages" ON "channels"."id" = "messages"."channel_id" WHERE "messages"."user_id" = $1[0m  [["user_id", 13]]
+[active_model_serializers]   ↳ app/controllers/users_controller.rb:8
+[active_model_serializers]   [1m[36mMessage Load (0.3ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."user_id" = $1[0m  [["user_id", 14]]
+[active_model_serializers]   ↳ app/controllers/users_controller.rb:8
+[active_model_serializers]   [1m[36mChannel Load (0.4ms)[0m  [1m[34mSELECT "channels".* FROM "channels" INNER JOIN "messages" ON "channels"."id" = "messages"."channel_id" WHERE "messages"."user_id" = $1[0m  [["user_id", 14]]
+[active_model_serializers]   ↳ app/controllers/users_controller.rb:8
+[active_model_serializers]   [1m[36mMessage Load (0.3ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."user_id" = $1[0m  [["user_id", 15]]
+[active_model_serializers]   ↳ app/controllers/users_controller.rb:8
+[active_model_serializers]   [1m[36mChannel Load (0.2ms)[0m  [1m[34mSELECT "channels".* FROM "channels" INNER JOIN "messages" ON "channels"."id" = "messages"."channel_id" WHERE "messages"."user_id" = $1[0m  [["user_id", 15]]
+[active_model_serializers]   ↳ app/controllers/users_controller.rb:8
+[active_model_serializers]   [1m[36mMessage Load (0.3ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."user_id" = $1[0m  [["user_id", 16]]
+[active_model_serializers]   ↳ app/controllers/users_controller.rb:8
+[active_model_serializers]   [1m[36mChannel Load (0.4ms)[0m  [1m[34mSELECT "channels".* FROM "channels" INNER JOIN "messages" ON "channels"."id" = "messages"."channel_id" WHERE "messages"."user_id" = $1[0m  [["user_id", 16]]
+[active_model_serializers]   ↳ app/controllers/users_controller.rb:8
+[active_model_serializers]   [1m[36mMessage Load (0.3ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."user_id" = $1[0m  [["user_id", 17]]
+[active_model_serializers]   ↳ app/controllers/users_controller.rb:8
+[active_model_serializers]   [1m[36mChannel Load (0.2ms)[0m  [1m[34mSELECT "channels".* FROM "channels" INNER JOIN "messages" ON "channels"."id" = "messages"."channel_id" WHERE "messages"."user_id" = $1[0m  [["user_id", 17]]
+[active_model_serializers]   ↳ app/controllers/users_controller.rb:8
+[active_model_serializers]   [1m[36mMessage Load (0.8ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."user_id" = $1[0m  [["user_id", 18]]
+[active_model_serializers]   ↳ app/controllers/users_controller.rb:8
+[active_model_serializers]   [1m[36mChannel Load (0.3ms)[0m  [1m[34mSELECT "channels".* FROM "channels" INNER JOIN "messages" ON "channels"."id" = "messages"."channel_id" WHERE "messages"."user_id" = $1[0m  [["user_id", 18]]
+[active_model_serializers]   ↳ app/controllers/users_controller.rb:8
+[active_model_serializers]   [1m[36mMessage Load (0.2ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."user_id" = $1[0m  [["user_id", 19]]
+[active_model_serializers]   ↳ app/controllers/users_controller.rb:8
+[active_model_serializers]   [1m[36mChannel Load (0.3ms)[0m  [1m[34mSELECT "channels".* FROM "channels" INNER JOIN "messages" ON "channels"."id" = "messages"."channel_id" WHERE "messages"."user_id" = $1[0m  [["user_id", 19]]
+[active_model_serializers]   ↳ app/controllers/users_controller.rb:8
+[active_model_serializers]   [1m[36mMessage Load (0.2ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."user_id" = $1[0m  [["user_id", 20]]
+[active_model_serializers]   ↳ app/controllers/users_controller.rb:8
+[active_model_serializers]   [1m[36mChannel Load (0.2ms)[0m  [1m[34mSELECT "channels".* FROM "channels" INNER JOIN "messages" ON "channels"."id" = "messages"."channel_id" WHERE "messages"."user_id" = $1[0m  [["user_id", 20]]
+[active_model_serializers]   ↳ app/controllers/users_controller.rb:8
+[active_model_serializers]   [1m[36mMessage Load (0.2ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."user_id" = $1[0m  [["user_id", 21]]
+[active_model_serializers]   ↳ app/controllers/users_controller.rb:8
+[active_model_serializers]   [1m[36mChannel Load (0.2ms)[0m  [1m[34mSELECT "channels".* FROM "channels" INNER JOIN "messages" ON "channels"."id" = "messages"."channel_id" WHERE "messages"."user_id" = $1[0m  [["user_id", 21]]
+[active_model_serializers]   ↳ app/controllers/users_controller.rb:8
+[active_model_serializers]   [1m[36mMessage Load (0.2ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."user_id" = $1[0m  [["user_id", 22]]
+[active_model_serializers]   ↳ app/controllers/users_controller.rb:8
+[active_model_serializers]   [1m[36mChannel Load (0.3ms)[0m  [1m[34mSELECT "channels".* FROM "channels" INNER JOIN "messages" ON "channels"."id" = "messages"."channel_id" WHERE "messages"."user_id" = $1[0m  [["user_id", 22]]
+[active_model_serializers]   ↳ app/controllers/users_controller.rb:8
+[active_model_serializers]   [1m[36mMessage Load (0.2ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."user_id" = $1[0m  [["user_id", 23]]
+[active_model_serializers]   ↳ app/controllers/users_controller.rb:8
+[active_model_serializers]   [1m[36mChannel Load (0.2ms)[0m  [1m[34mSELECT "channels".* FROM "channels" INNER JOIN "messages" ON "channels"."id" = "messages"."channel_id" WHERE "messages"."user_id" = $1[0m  [["user_id", 23]]
+[active_model_serializers]   ↳ app/controllers/users_controller.rb:8
+[active_model_serializers]   [1m[36mMessage Load (0.2ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."user_id" = $1[0m  [["user_id", 24]]
+[active_model_serializers]   ↳ app/controllers/users_controller.rb:8
+[active_model_serializers]   [1m[36mChannel Load (0.4ms)[0m  [1m[34mSELECT "channels".* FROM "channels" INNER JOIN "messages" ON "channels"."id" = "messages"."channel_id" WHERE "messages"."user_id" = $1[0m  [["user_id", 24]]
+[active_model_serializers]   ↳ app/controllers/users_controller.rb:8
+[active_model_serializers]   [1m[36mMessage Load (0.2ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."user_id" = $1[0m  [["user_id", 25]]
+[active_model_serializers]   ↳ app/controllers/users_controller.rb:8
+[active_model_serializers]   [1m[36mChannel Load (0.2ms)[0m  [1m[34mSELECT "channels".* FROM "channels" INNER JOIN "messages" ON "channels"."id" = "messages"."channel_id" WHERE "messages"."user_id" = $1[0m  [["user_id", 25]]
+[active_model_serializers]   ↳ app/controllers/users_controller.rb:8
+[active_model_serializers]   [1m[36mMessage Load (0.2ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."user_id" = $1[0m  [["user_id", 26]]
+[active_model_serializers]   ↳ app/controllers/users_controller.rb:8
+[active_model_serializers]   [1m[36mChannel Load (0.2ms)[0m  [1m[34mSELECT "channels".* FROM "channels" INNER JOIN "messages" ON "channels"."id" = "messages"."channel_id" WHERE "messages"."user_id" = $1[0m  [["user_id", 26]]
+[active_model_serializers]   ↳ app/controllers/users_controller.rb:8
+[active_model_serializers]   [1m[36mMessage Load (0.4ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."user_id" = $1[0m  [["user_id", 27]]
+[active_model_serializers]   ↳ app/controllers/users_controller.rb:8
+[active_model_serializers]   [1m[36mChannel Load (0.3ms)[0m  [1m[34mSELECT "channels".* FROM "channels" INNER JOIN "messages" ON "channels"."id" = "messages"."channel_id" WHERE "messages"."user_id" = $1[0m  [["user_id", 27]]
+[active_model_serializers]   ↳ app/controllers/users_controller.rb:8
+[active_model_serializers]   [1m[36mMessage Load (0.2ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."user_id" = $1[0m  [["user_id", 28]]
+[active_model_serializers]   ↳ app/controllers/users_controller.rb:8
+[active_model_serializers]   [1m[36mChannel Load (0.2ms)[0m  [1m[34mSELECT "channels".* FROM "channels" INNER JOIN "messages" ON "channels"."id" = "messages"."channel_id" WHERE "messages"."user_id" = $1[0m  [["user_id", 28]]
+[active_model_serializers]   ↳ app/controllers/users_controller.rb:8
+[active_model_serializers]   [1m[36mMessage Load (0.2ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."user_id" = $1[0m  [["user_id", 29]]
+[active_model_serializers]   ↳ app/controllers/users_controller.rb:8
+[active_model_serializers]   [1m[36mChannel Load (0.3ms)[0m  [1m[34mSELECT "channels".* FROM "channels" INNER JOIN "messages" ON "channels"."id" = "messages"."channel_id" WHERE "messages"."user_id" = $1[0m  [["user_id", 29]]
+[active_model_serializers]   ↳ app/controllers/users_controller.rb:8
+[active_model_serializers]   [1m[36mMessage Load (0.2ms)[0m  [1m[34mSELECT "messages".* FROM "messages" WHERE "messages"."user_id" = $1[0m  [["user_id", 30]]
+[active_model_serializers]   ↳ app/controllers/users_controller.rb:8
+[active_model_serializers]   [1m[36mChannel Load (0.3ms)[0m  [1m[34mSELECT "channels".* FROM "channels" INNER JOIN "messages" ON "channels"."id" = "messages"."channel_id" WHERE "messages"."user_id" = $1[0m  [["user_id", 30]]
+[active_model_serializers]   ↳ app/controllers/users_controller.rb:8
+[active_model_serializers] Rendered ActiveModel::Serializer::CollectionSerializer with ActiveModelSerializers::Adapter::Attributes (194.59ms)
+Completed 200 OK in 246ms (Views: 202.9ms | ActiveRecord: 36.5ms)
+
+
+Started GET "/cable" for 127.0.0.1 at 2018-08-22 13:42:11 -0400
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/owner/.rvm/gems/ruby-2.3.3/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Started GET "/cable/"[non-WebSocket] for 127.0.0.1 at 2018-08-22 13:42:11 -0400
+Failed to upgrade to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: keep-alive, HTTP_UPGRADE: )
+Finished "/cable/"[non-WebSocket] for 127.0.0.1 at 2018-08-22 13:42:11 -0400
+Started GET "/" for 127.0.0.1 at 2018-08-22 13:45:48 -0400
+  [1m[35m (1.0ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/owner/.rvm/gems/ruby-2.3.3/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/owner/.rvm/gems/ruby-2.3.3/gems/railties-5.2.1/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/owner/.rvm/gems/ruby-2.3.3/gems/railties-5.2.1/lib/rails/templates/rails/welcome/index.html.erb (3.7ms)
+Completed 200 OK in 11ms (Views: 8.5ms | ActiveRecord: 0.0ms)
+
+
