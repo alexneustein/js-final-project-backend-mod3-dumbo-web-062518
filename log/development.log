@@ -7038,3 +7038,278 @@ ChatMessagesChannel#chat({"content"=>"aasdfasdf", "username"=>"null"})
 ChatMessagesChannel transmitting {"content"=>"aasdfasdf", "username"=>"null"} (via streamed from chat_messages_channel)
 ChatMessagesChannel transmitting {"content"=>"aasdfasdf", "username"=>"null"} (via streamed from chat_messages_channel)
 ChatMessagesChannel transmitting {"content"=>"aasdfasdf", "username"=>"null"} (via streamed from chat_messages_channel)
+Started GET "/cable" for 127.0.0.1 at 2018-08-23 11:50:22 -0400
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/owner/.rvm/gems/ruby-2.3.3/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-23 11:50:22 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+ChatMessagesChannel is transmitting the subscription confirmation
+ChatMessagesChannel is streaming from chat_messages_channel
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-23 11:51:06 -0400
+ChatMessagesChannel stopped streaming from chat_messages_channel
+Started GET "/cable" for 127.0.0.1 at 2018-08-23 11:53:36 -0400
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-23 11:53:36 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+ChatMessagesChannel is transmitting the subscription confirmation
+ChatMessagesChannel is streaming from chat_messages_channel
+ChatMessagesChannel#chat({"content"=>"hey", "username"=>"Andre"})
+[ActionCable] Broadcasting to chat_messages_channel: {:content=>"hey", :username=>"Andre"}
+ChatMessagesChannel transmitting {"content"=>"hey", "username"=>"Andre"} (via streamed from chat_messages_channel)
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-23 11:54:05 -0400
+ChatMessagesChannel stopped streaming from chat_messages_channel
+Started GET "/cable" for 127.0.0.1 at 2018-08-23 11:54:06 -0400
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-23 11:54:06 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+ChatMessagesChannel is transmitting the subscription confirmation
+ChatMessagesChannel is streaming from chat_messages_channel
+ChatMessagesChannel#chat({"content"=>"hey", "username"=>"andre"})
+[ActionCable] Broadcasting to chat_messages_channel: {:content=>"hey", :username=>"andre"}
+ChatMessagesChannel transmitting {"content"=>"hey", "username"=>"andre"} (via streamed from chat_messages_channel)
+ChatMessagesChannel#chat({"content"=>"hey", "username"=>"null"})
+[ActionCable] Broadcasting to chat_messages_channel: {:content=>"hey", :username=>"null"}
+ChatMessagesChannel transmitting {"content"=>"hey", "username"=>"null"} (via streamed from chat_messages_channel)
+ChatMessagesChannel#chat({"content"=>"Hyeyey", "username"=>"null"})
+[ActionCable] Broadcasting to chat_messages_channel: {:content=>"Hyeyey", :username=>"null"}
+ChatMessagesChannel transmitting {"content"=>"Hyeyey", "username"=>"null"} (via streamed from chat_messages_channel)
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-23 11:55:41 -0400
+ChatMessagesChannel stopped streaming from chat_messages_channel
+Started GET "/cable" for 127.0.0.1 at 2018-08-23 11:55:41 -0400
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-23 11:55:41 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+ChatMessagesChannel is transmitting the subscription confirmation
+ChatMessagesChannel is streaming from chat_messages_channel
+ChatMessagesChannel#chat({"content"=>"hey", "username"=>"null"})
+[ActionCable] Broadcasting to chat_messages_channel: {:content=>"hey", :username=>"null"}
+ChatMessagesChannel transmitting {"content"=>"hey", "username"=>"null"} (via streamed from chat_messages_channel)
+Started GET "/cable" for 127.0.0.1 at 2018-08-23 11:55:59 -0400
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-23 11:55:59 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+ChatMessagesChannel is transmitting the subscription confirmation
+ChatMessagesChannel is streaming from chat_messages_channel
+ChatMessagesChannel#chat({"content"=>"What's up?", "username"=>"null"})
+[ActionCable] Broadcasting to chat_messages_channel: {:content=>"What's up?", :username=>"null"}
+ChatMessagesChannel transmitting {"content"=>"What's up?", "username"=>"null"} (via streamed from chat_messages_channel)
+ChatMessagesChannel transmitting {"content"=>"What's up?", "username"=>"null"} (via streamed from chat_messages_channel)
+ChatMessagesChannel#chat({"content"=>"Chilling", "username"=>"Andre"})
+[ActionCable] Broadcasting to chat_messages_channel: {:content=>"Chilling", :username=>"Andre"}
+ChatMessagesChannel transmitting {"content"=>"Chilling", "username"=>"Andre"} (via streamed from chat_messages_channel)
+ChatMessagesChannel transmitting {"content"=>"Chilling", "username"=>"Andre"} (via streamed from chat_messages_channel)
+ChatMessagesChannel#chat({"content"=>"What's up?", "username"=>"Dan"})
+[ActionCable] Broadcasting to chat_messages_channel: {:content=>"What's up?", :username=>"Dan"}
+ChatMessagesChannel transmitting {"content"=>"What's up?", "username"=>"Dan"} (via streamed from chat_messages_channel)
+ChatMessagesChannel transmitting {"content"=>"What's up?", "username"=>"Dan"} (via streamed from chat_messages_channel)
+ChatMessagesChannel#chat({"content"=>"Very cool", "username"=>"Dan"})
+[ActionCable] Broadcasting to chat_messages_channel: {:content=>"Very cool", :username=>"Dan"}
+ChatMessagesChannel transmitting {"content"=>"Very cool", "username"=>"Dan"} (via streamed from chat_messages_channel)
+ChatMessagesChannel transmitting {"content"=>"Very cool", "username"=>"Dan"} (via streamed from chat_messages_channel)
+ChatMessagesChannel#chat({"content"=>"Noice", "username"=>"Andre"})
+[ActionCable] Broadcasting to chat_messages_channel: {:content=>"Noice", :username=>"Andre"}
+ChatMessagesChannel transmitting {"content"=>"Noice", "username"=>"Andre"} (via streamed from chat_messages_channel)
+ChatMessagesChannel transmitting {"content"=>"Noice", "username"=>"Andre"} (via streamed from chat_messages_channel)
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-23 11:56:55 -0400
+ChatMessagesChannel stopped streaming from chat_messages_channel
+Started GET "/cable" for 127.0.0.1 at 2018-08-23 11:56:55 -0400
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-23 11:56:55 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+ChatMessagesChannel is transmitting the subscription confirmation
+ChatMessagesChannel is streaming from chat_messages_channel
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-23 11:56:56 -0400
+ChatMessagesChannel stopped streaming from chat_messages_channel
+Started GET "/cable" for 127.0.0.1 at 2018-08-23 11:56:56 -0400
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-23 11:56:56 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+ChatMessagesChannel is transmitting the subscription confirmation
+ChatMessagesChannel is streaming from chat_messages_channel
+ChatMessagesChannel#chat({"content"=>"Hey", "username"=>"Andre"})
+[ActionCable] Broadcasting to chat_messages_channel: {:content=>"Hey", :username=>"Andre"}
+ChatMessagesChannel transmitting {"content"=>"Hey", "username"=>"Andre"} (via streamed from chat_messages_channel)
+ChatMessagesChannel transmitting {"content"=>"Hey", "username"=>"Andre"} (via streamed from chat_messages_channel)
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-23 11:57:47 -0400
+ChatMessagesChannel stopped streaming from chat_messages_channel
+Started GET "/cable" for 127.0.0.1 at 2018-08-23 11:57:47 -0400
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-23 11:57:47 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+ChatMessagesChannel is transmitting the subscription confirmation
+ChatMessagesChannel is streaming from chat_messages_channel
+ChatMessagesChannel#chat({"content"=>"hey", "username"=>"Dan"})
+[ActionCable] Broadcasting to chat_messages_channel: {:content=>"hey", :username=>"Dan"}
+ChatMessagesChannel transmitting {"content"=>"hey", "username"=>"Dan"} (via streamed from chat_messages_channel)
+ChatMessagesChannel transmitting {"content"=>"hey", "username"=>"Dan"} (via streamed from chat_messages_channel)
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-23 11:57:53 -0400
+ChatMessagesChannel stopped streaming from chat_messages_channel
+Started GET "/cable" for 127.0.0.1 at 2018-08-23 11:57:53 -0400
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-23 11:57:53 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+ChatMessagesChannel is transmitting the subscription confirmation
+ChatMessagesChannel is streaming from chat_messages_channel
+ChatMessagesChannel#chat({"content"=>"Hey", "username"=>"null"})
+[ActionCable] Broadcasting to chat_messages_channel: {:content=>"Hey", :username=>"null"}
+ChatMessagesChannel transmitting {"content"=>"Hey", "username"=>"null"} (via streamed from chat_messages_channel)
+ChatMessagesChannel transmitting {"content"=>"Hey", "username"=>"null"} (via streamed from chat_messages_channel)
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-23 11:58:45 -0400
+ChatMessagesChannel stopped streaming from chat_messages_channel
+Started GET "/cable" for 127.0.0.1 at 2018-08-23 11:58:45 -0400
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-23 11:58:45 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+ChatMessagesChannel is transmitting the subscription confirmation
+ChatMessagesChannel is streaming from chat_messages_channel
+ChatMessagesChannel#chat({"content"=>"hey", "username"=>"null"})
+[ActionCable] Broadcasting to chat_messages_channel: {:content=>"hey", :username=>"null"}
+ChatMessagesChannel transmitting {"content"=>"hey", "username"=>"null"} (via streamed from chat_messages_channel)
+ChatMessagesChannel transmitting {"content"=>"hey", "username"=>"null"} (via streamed from chat_messages_channel)
+ChatMessagesChannel#chat({"content"=>"hey", "username"=>"Dan"})
+[ActionCable] Broadcasting to chat_messages_channel: {:content=>"hey", :username=>"Dan"}
+ChatMessagesChannel transmitting {"content"=>"hey", "username"=>"Dan"} (via streamed from chat_messages_channel)
+ChatMessagesChannel transmitting {"content"=>"hey", "username"=>"Dan"} (via streamed from chat_messages_channel)
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-23 11:59:20 -0400
+ChatMessagesChannel stopped streaming from chat_messages_channel
+Started GET "/cable" for 127.0.0.1 at 2018-08-23 11:59:20 -0400
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-23 11:59:20 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+ChatMessagesChannel is transmitting the subscription confirmation
+ChatMessagesChannel is streaming from chat_messages_channel
+ChatMessagesChannel#chat({"content"=>"Hey", "username"=>"null"})
+[ActionCable] Broadcasting to chat_messages_channel: {:content=>"Hey", :username=>"null"}
+ChatMessagesChannel transmitting {"content"=>"Hey", "username"=>"null"} (via streamed from chat_messages_channel)
+ChatMessagesChannel transmitting {"content"=>"Hey", "username"=>"null"} (via streamed from chat_messages_channel)
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-23 11:59:39 -0400
+ChatMessagesChannel stopped streaming from chat_messages_channel
+Started GET "/cable" for 127.0.0.1 at 2018-08-23 11:59:39 -0400
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-23 11:59:39 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+ChatMessagesChannel is transmitting the subscription confirmation
+ChatMessagesChannel is streaming from chat_messages_channel
+ChatMessagesChannel#chat({"content"=>"yo", "username"=>"null"})
+[ActionCable] Broadcasting to chat_messages_channel: {:content=>"yo", :username=>"null"}
+ChatMessagesChannel transmitting {"content"=>"yo", "username"=>"null"} (via streamed from chat_messages_channel)
+ChatMessagesChannel transmitting {"content"=>"yo", "username"=>"null"} (via streamed from chat_messages_channel)
+ChatMessagesChannel#chat({"content"=>"yoadsfisad", "username"=>"null"})
+[ActionCable] Broadcasting to chat_messages_channel: {:content=>"yoadsfisad", :username=>"null"}
+ChatMessagesChannel transmitting {"content"=>"yoadsfisad", "username"=>"null"} (via streamed from chat_messages_channel)
+ChatMessagesChannel transmitting {"content"=>"yoadsfisad", "username"=>"null"} (via streamed from chat_messages_channel)
+ChatMessagesChannel#chat({"content"=>"yoadsfisad", "username"=>"null"})
+[ActionCable] Broadcasting to chat_messages_channel: {:content=>"yoadsfisad", :username=>"null"}
+ChatMessagesChannel transmitting {"content"=>"yoadsfisad", "username"=>"null"} (via streamed from chat_messages_channel)
+ChatMessagesChannel transmitting {"content"=>"yoadsfisad", "username"=>"null"} (via streamed from chat_messages_channel)
+ChatMessagesChannel#chat({"content"=>"yoadsfisad", "username"=>"null"})
+[ActionCable] Broadcasting to chat_messages_channel: {:content=>"yoadsfisad", :username=>"null"}
+ChatMessagesChannel transmitting {"content"=>"yoadsfisad", "username"=>"null"} (via streamed from chat_messages_channel)
+ChatMessagesChannel transmitting {"content"=>"yoadsfisad", "username"=>"null"} (via streamed from chat_messages_channel)
+ChatMessagesChannel#chat({"content"=>"yoadsfisad", "username"=>"Dan"})
+[ActionCable] Broadcasting to chat_messages_channel: {:content=>"yoadsfisad", :username=>"Dan"}
+ChatMessagesChannel transmitting {"content"=>"yoadsfisad", "username"=>"Dan"} (via streamed from chat_messages_channel)
+ChatMessagesChannel transmitting {"content"=>"yoadsfisad", "username"=>"Dan"} (via streamed from chat_messages_channel)
+ChatMessagesChannel#chat({"content"=>"yoadsfisad", "username"=>"Dan"})
+[ActionCable] Broadcasting to chat_messages_channel: {:content=>"yoadsfisad", :username=>"Dan"}
+ChatMessagesChannel transmitting {"content"=>"yoadsfisad", "username"=>"Dan"} (via streamed from chat_messages_channel)
+ChatMessagesChannel transmitting {"content"=>"yoadsfisad", "username"=>"Dan"} (via streamed from chat_messages_channel)
+ChatMessagesChannel#chat({"content"=>"yoadsfisad", "username"=>"Dan"})
+[ActionCable] Broadcasting to chat_messages_channel: {:content=>"yoadsfisad", :username=>"Dan"}
+ChatMessagesChannel transmitting {"content"=>"yoadsfisad", "username"=>"Dan"} (via streamed from chat_messages_channel)
+ChatMessagesChannel transmitting {"content"=>"yoadsfisad", "username"=>"Dan"} (via streamed from chat_messages_channel)
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-23 12:01:32 -0400
+ChatMessagesChannel stopped streaming from chat_messages_channel
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-23 12:01:35 -0400
+ChatMessagesChannel stopped streaming from chat_messages_channel
+Started GET "/cable" for 127.0.0.1 at 2018-08-23 12:01:35 -0400
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-23 12:01:36 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+ChatMessagesChannel is transmitting the subscription confirmation
+ChatMessagesChannel is streaming from chat_messages_channel
+ChatMessagesChannel#chat({"content"=>"test", "username"=>"Andre"})
+[ActionCable] Broadcasting to chat_messages_channel: {:content=>"test", :username=>"Andre"}
+ChatMessagesChannel transmitting {"content"=>"test", "username"=>"Andre"} (via streamed from chat_messages_channel)
+ChatMessagesChannel#chat({"content"=>"test", "username"=>"null"})
+[ActionCable] Broadcasting to chat_messages_channel: {:content=>"test", :username=>"null"}
+ChatMessagesChannel transmitting {"content"=>"test", "username"=>"null"} (via streamed from chat_messages_channel)
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-23 12:02:15 -0400
+ChatMessagesChannel stopped streaming from chat_messages_channel
+Started GET "/cable" for 127.0.0.1 at 2018-08-23 12:02:15 -0400
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-23 12:02:15 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+ChatMessagesChannel is transmitting the subscription confirmation
+ChatMessagesChannel is streaming from chat_messages_channel
+ChatMessagesChannel#chat({"content"=>"hey", "username"=>"null"})
+[ActionCable] Broadcasting to chat_messages_channel: {:content=>"hey", :username=>"null"}
+ChatMessagesChannel transmitting {"content"=>"hey", "username"=>"null"} (via streamed from chat_messages_channel)
+ChatMessagesChannel#chat({"content"=>"hey", "username"=>"null"})
+[ActionCable] Broadcasting to chat_messages_channel: {:content=>"hey", :username=>"null"}
+ChatMessagesChannel transmitting {"content"=>"hey", "username"=>"null"} (via streamed from chat_messages_channel)
+ChatMessagesChannel#chat({"content"=>"hey", "username"=>"null"})
+[ActionCable] Broadcasting to chat_messages_channel: {:content=>"hey", :username=>"null"}
+ChatMessagesChannel transmitting {"content"=>"hey", "username"=>"null"} (via streamed from chat_messages_channel)
+ChatMessagesChannel#chat({"content"=>"hey", "username"=>"null"})
+[ActionCable] Broadcasting to chat_messages_channel: {:content=>"hey", :username=>"null"}
+ChatMessagesChannel transmitting {"content"=>"hey", "username"=>"null"} (via streamed from chat_messages_channel)
+ChatMessagesChannel#chat({"content"=>"hey", "username"=>"null"})
+[ActionCable] Broadcasting to chat_messages_channel: {:content=>"hey", :username=>"null"}
+ChatMessagesChannel transmitting {"content"=>"hey", "username"=>"null"} (via streamed from chat_messages_channel)
+ChatMessagesChannel#chat({"content"=>"hey", "username"=>"null"})
+[ActionCable] Broadcasting to chat_messages_channel: {:content=>"hey", :username=>"null"}
+ChatMessagesChannel transmitting {"content"=>"hey", "username"=>"null"} (via streamed from chat_messages_channel)
+ChatMessagesChannel#chat({"content"=>"hey", "username"=>"null"})
+[ActionCable] Broadcasting to chat_messages_channel: {:content=>"hey", :username=>"null"}
+ChatMessagesChannel transmitting {"content"=>"hey", "username"=>"null"} (via streamed from chat_messages_channel)
+ChatMessagesChannel#chat({"content"=>"hey", "username"=>"null"})
+[ActionCable] Broadcasting to chat_messages_channel: {:content=>"hey", :username=>"null"}
+ChatMessagesChannel transmitting {"content"=>"hey", "username"=>"null"} (via streamed from chat_messages_channel)
+ChatMessagesChannel#chat({"content"=>"hey", "username"=>"null"})
+[ActionCable] Broadcasting to chat_messages_channel: {:content=>"hey", :username=>"null"}
+ChatMessagesChannel transmitting {"content"=>"hey", "username"=>"null"} (via streamed from chat_messages_channel)
+ChatMessagesChannel#chat({"content"=>"hey", "username"=>"null"})
+[ActionCable] Broadcasting to chat_messages_channel: {:content=>"hey", :username=>"null"}
+ChatMessagesChannel transmitting {"content"=>"hey", "username"=>"null"} (via streamed from chat_messages_channel)
+ChatMessagesChannel#chat({"content"=>"hey", "username"=>"null"})
+[ActionCable] Broadcasting to chat_messages_channel: {:content=>"hey", :username=>"null"}
+ChatMessagesChannel transmitting {"content"=>"hey", "username"=>"null"} (via streamed from chat_messages_channel)
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-23 12:02:30 -0400
+ChatMessagesChannel stopped streaming from chat_messages_channel
+Started GET "/cable" for 127.0.0.1 at 2018-08-23 12:02:30 -0400
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-23 12:02:30 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+ChatMessagesChannel is transmitting the subscription confirmation
+ChatMessagesChannel is streaming from chat_messages_channel
+ChatMessagesChannel#chat({"content"=>"hey", "username"=>"null"})
+[ActionCable] Broadcasting to chat_messages_channel: {:content=>"hey", :username=>"null"}
+ChatMessagesChannel transmitting {"content"=>"hey", "username"=>"null"} (via streamed from chat_messages_channel)
+ChatMessagesChannel#chat({"content"=>"hey", "username"=>"null"})
+[ActionCable] Broadcasting to chat_messages_channel: {:content=>"hey", :username=>"null"}
+ChatMessagesChannel transmitting {"content"=>"hey", "username"=>"null"} (via streamed from chat_messages_channel)
+ChatMessagesChannel#chat({"content"=>"hey", "username"=>"null"})
+[ActionCable] Broadcasting to chat_messages_channel: {:content=>"hey", :username=>"null"}
+ChatMessagesChannel transmitting {"content"=>"hey", "username"=>"null"} (via streamed from chat_messages_channel)
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-23 12:02:55 -0400
+ChatMessagesChannel stopped streaming from chat_messages_channel
+Started GET "/cable" for 127.0.0.1 at 2018-08-23 12:02:55 -0400
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-23 12:02:55 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+ChatMessagesChannel is transmitting the subscription confirmation
+ChatMessagesChannel is streaming from chat_messages_channel
+ChatMessagesChannel#chat({"content"=>"hey", "username"=>"null"})
+[ActionCable] Broadcasting to chat_messages_channel: {:content=>"hey", :username=>"null"}
+ChatMessagesChannel transmitting {"content"=>"hey", "username"=>"null"} (via streamed from chat_messages_channel)
+ChatMessagesChannel#chat({"content"=>"hey", "username"=>"null"})
+[ActionCable] Broadcasting to chat_messages_channel: {:content=>"hey", :username=>"null"}
+ChatMessagesChannel transmitting {"content"=>"hey", "username"=>"null"} (via streamed from chat_messages_channel)
+ChatMessagesChannel#chat({"content"=>"hey", "username"=>"null"})
+[ActionCable] Broadcasting to chat_messages_channel: {:content=>"hey", :username=>"null"}
+ChatMessagesChannel transmitting {"content"=>"hey", "username"=>"null"} (via streamed from chat_messages_channel)
+ChatMessagesChannel#chat({"content"=>"hey", "username"=>"null"})
+[ActionCable] Broadcasting to chat_messages_channel: {:content=>"hey", :username=>"null"}
+ChatMessagesChannel transmitting {"content"=>"hey", "username"=>"null"} (via streamed from chat_messages_channel)
+ChatMessagesChannel#chat({"content"=>"What's up", "username"=>"Andre"})
+[ActionCable] Broadcasting to chat_messages_channel: {:content=>"What's up", :username=>"Andre"}
+ChatMessagesChannel transmitting {"content"=>"What's up", "username"=>"Andre"} (via streamed from chat_messages_channel)
+Started GET "/cable" for 127.0.0.1 at 2018-08-23 12:03:12 -0400
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-23 12:03:12 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+ChatMessagesChannel is transmitting the subscription confirmation
+ChatMessagesChannel is streaming from chat_messages_channel
+ChatMessagesChannel#chat({"content"=>"What's up", "username"=>"Andre"})
+[ActionCable] Broadcasting to chat_messages_channel: {:content=>"What's up", :username=>"Andre"}
+ChatMessagesChannel transmitting {"content"=>"What's up", "username"=>"Andre"} (via streamed from chat_messages_channel)
+ChatMessagesChannel transmitting {"content"=>"What's up", "username"=>"Andre"} (via streamed from chat_messages_channel)
+ChatMessagesChannel#chat({"content"=>"Hey", "username"=>"null"})
+[ActionCable] Broadcasting to chat_messages_channel: {:content=>"Hey", :username=>"null"}
+ChatMessagesChannel transmitting {"content"=>"Hey", "username"=>"null"} (via streamed from chat_messages_channel)
+ChatMessagesChannel transmitting {"content"=>"Hey", "username"=>"null"} (via streamed from chat_messages_channel)
