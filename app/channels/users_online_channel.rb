@@ -9,7 +9,7 @@ class UsersOnlineChannel < ApplicationCable::Channel
   end
 
   def user(data)
-    puts data
+    puts "TESTING"
     ActionCable.server.broadcast('users_online_channel', username: data["username"])
   end
 end
