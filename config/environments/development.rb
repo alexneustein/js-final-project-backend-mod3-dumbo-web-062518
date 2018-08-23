@@ -52,7 +52,8 @@ Rails.application.configure do
   # routes, locales, etc. This feature depends on the listen gem.
   config.file_watcher = ActiveSupport::EventedFileUpdateChecker
 
-  config.action_cable.url = "ws://localhost:3000/cable"
+  # config.action_cable.url = "ws://localhost:3000/cable"
+  config.action.cable.url = "ws://flatironchatterbox.herokuapp.com/cable"
   # config.action_cable.allowed_request_origins = ""
   config.action_cable.disable_request_forgery_protection = true
 end
