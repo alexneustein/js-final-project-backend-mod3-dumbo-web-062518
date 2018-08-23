@@ -5,6 +5,9 @@ ruby '2.3.3'
 
 gem 'faker', '~> 1.9', '>= 1.9.1'
 
+# gem 'devise'
+# gem 'doorkeeper'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '~> 5.2.1'
 # Use postgresql as the database for Active Record
