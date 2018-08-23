@@ -12,6 +12,9 @@ class ChatMessagesChannel < ApplicationCable::Channel
     # puts "test"
     # ChatMessagesChannel.broadcast_to('chat_messages_channel', data)
     # Message.create(content: data.fetch('content'))
-    ActionCable.server.broadcast('chat_messages_channel', content: data["content"])
+    # puts data
+    ActionCable.server.broadcast('chat_messages_channel', content: data["content"], username: data["username"])
   end
+
+
 end
