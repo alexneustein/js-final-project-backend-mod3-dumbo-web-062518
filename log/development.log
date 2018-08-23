@@ -6013,3 +6013,57 @@ ChatMessagesChannel#chat({"content"=>"flatiron school"})
 [ActionCable] Broadcasting to chat_messages_channel: {:content=>"flatiron school"}
 ChatMessagesChannel transmitting {"content"=>"flatiron school"} (via streamed from chat_messages_channel)
 ChatMessagesChannel transmitting {"content"=>"flatiron school"} (via streamed from chat_messages_channel)
+Started GET "/cable" for 127.0.0.1 at 2018-08-22 17:23:35 -0400
+  [1m[35m (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/owner/.rvm/gems/ruby-2.3.3/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-22 17:23:35 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+ChatMessagesChannel is transmitting the subscription confirmation
+ChatMessagesChannel is streaming from chat_messages_channel
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-22 17:24:55 -0400
+ChatMessagesChannel stopped streaming from chat_messages_channel
+Started GET "/cable" for 127.0.0.1 at 2018-08-22 17:24:55 -0400
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-22 17:24:55 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+ChatMessagesChannel is transmitting the subscription confirmation
+ChatMessagesChannel is streaming from chat_messages_channel
+Started GET "/cable" for 127.0.0.1 at 2018-08-22 17:33:26 -0400
+  [1m[35m (0.9ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+  ↳ /Users/owner/.rvm/gems/ruby-2.3.3/gems/activerecord-5.2.1/lib/active_record/log_subscriber.rb:98
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-22 17:33:26 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+ChatMessagesChannel is transmitting the subscription confirmation
+ChatMessagesChannel is streaming from chat_messages_channel
+ChatMessagesChannel#chat({"content"=>"Great!!"})
+[ActionCable] Broadcasting to chat_messages_channel: {:content=>"Great!!"}
+ChatMessagesChannel transmitting {"content"=>"Great!!"} (via streamed from chat_messages_channel)
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-23 09:25:25 -0400
+ChatMessagesChannel stopped streaming from chat_messages_channel
+Started GET "/cable" for 127.0.0.1 at 2018-08-23 09:25:25 -0400
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-23 09:25:36 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+ChatMessagesChannel is transmitting the subscription confirmation
+ChatMessagesChannel is streaming from chat_messages_channel
+ChatMessagesChannel#chat({"content"=>"sadfasdf"})
+[ActionCable] Broadcasting to chat_messages_channel: {:content=>"sadfasdf"}
+ChatMessagesChannel transmitting {"content"=>"sadfasdf"} (via streamed from chat_messages_channel)
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-23 09:25:43 -0400
+ChatMessagesChannel stopped streaming from chat_messages_channel
+Started GET "/cable" for 127.0.0.1 at 2018-08-23 09:25:43 -0400
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-23 09:25:43 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+ChatMessagesChannel is transmitting the subscription confirmation
+ChatMessagesChannel is streaming from chat_messages_channel
+Finished "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-23 09:25:45 -0400
+ChatMessagesChannel stopped streaming from chat_messages_channel
+Started GET "/cable" for 127.0.0.1 at 2018-08-23 09:25:46 -0400
+Started GET "/cable/" [WebSocket] for 127.0.0.1 at 2018-08-23 09:25:46 -0400
+Successfully upgraded to WebSocket (REQUEST_METHOD: GET, HTTP_CONNECTION: Upgrade, HTTP_UPGRADE: websocket)
+ChatMessagesChannel is transmitting the subscription confirmation
+ChatMessagesChannel is streaming from chat_messages_channel
+ChatMessagesChannel#chat({"content"=>"adsfsdfsd"})
+[ActionCable] Broadcasting to chat_messages_channel: {:content=>"adsfsdfsd"}
+ChatMessagesChannel transmitting {"content"=>"adsfsdfsd"} (via streamed from chat_messages_channel)
+ChatMessagesChannel#chat({"content"=>"adsfsdfsdsadfsadfsad"})
+[ActionCable] Broadcasting to chat_messages_channel: {:content=>"adsfsdfsdsadfsadfsad"}
+ChatMessagesChannel transmitting {"content"=>"adsfsdfsdsadfsadfsad"} (via streamed from chat_messages_channel)
