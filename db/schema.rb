@@ -10,7 +10,11 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
+<<<<<<< HEAD
 ActiveRecord::Schema.define(version: 2018_08_24_152446) do
+=======
+ActiveRecord::Schema.define(version: 2018_08_24_135731) do
+>>>>>>> d06377afff602ebb48ef45b3c798704e50ea3777
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
@@ -23,7 +27,7 @@ ActiveRecord::Schema.define(version: 2018_08_24_152446) do
 
   create_table "messages", force: :cascade do |t|
     t.string "content"
-    t.integer "user_id"
+    t.string "username"
     t.integer "channel_id"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
