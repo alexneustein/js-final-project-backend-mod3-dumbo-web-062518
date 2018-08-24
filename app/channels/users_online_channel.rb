@@ -12,9 +12,9 @@ class UsersOnlineChannel < ApplicationCable::Channel
 
   def user_join(data)
     # puts data
-    User.create(username: data['username'], identifier: data['identifier'])
+    user = User.create(username: data['username'], identifier: data['identifier'])
     usernames = User.all_usernames
-    ActionCable.server.broadcast('users_online_channel', username: usernames)
+    ActionCable.server.broadcast('users_online_channel', username: usernames, new_user: user.username)
   end
 
   def user_leave(data)
