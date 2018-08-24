@@ -10,9 +10,14 @@ class ChatMessagesChannel < ApplicationCable::Channel
   end
 
   def send_text(data)
-    Message.create(content: data['content'], username: data['username'], color: data['color'])
+    Message.create(content: data['content'], username: data['username'], color: data['color'], effect: data['effect'])
     # ActionCable.server.broadcast('chat_messages_channel', content: data['content'], username: data['username'])
-    ActionCable.server.broadcast('chat_messages_channel', content: data['content'], username: data['username'], color: data['color'])
+    ActionCable.server.broadcast('chat_messages_channel',
+      content: data['content'],
+      username: data['username'],
+      color: data['color'],
+      effect: data['effect']
+    )
   end
 
   def self.all_messages(messages)
