@@ -9,18 +9,10 @@ class ChatMessagesChannel < ApplicationCable::Channel
     # Any cleanup needed when channel is unsubscribed
   end
 
-<<<<<<< HEAD
-  def chat(data)
-    # puts "test"
-    # ChatMessagesChannel.broadcast_to('chat_messages_channel', data)
-    # Message.create(content: data.fetch('content'))
-    # puts data
-    ActionCable.server.broadcast('chat_messages_channel', content: data["content"], username: data["username"], color: data["color"])
-=======
   def send_text(data)
     Message.create(content: data['content'], username: data['username'])
-    ActionCable.server.broadcast('chat_messages_channel', content: data['content'], username: data['username'])
->>>>>>> d06377afff602ebb48ef45b3c798704e50ea3777
+    # ActionCable.server.broadcast('chat_messages_channel', content: data['content'], username: data['username'])
+    ActionCable.server.broadcast('chat_messages_channel', content: data["content"], username: data["username"], color: data["color"])
   end
 
   def self.all_messages(messages)
