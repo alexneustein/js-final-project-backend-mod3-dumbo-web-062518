@@ -21,6 +21,6 @@ class UsersOnlineChannel < ApplicationCable::Channel
     user = User.find_by(identifier: data['identifier'])
     User.destroy(user.id)
     usernames = User.all_usernames
-    ActionCable.server.broadcast('users_online_channel', username: usernames)
+    ActionCable.server.broadcast('users_online_channel', username: usernames, bye_user: user.username)
   end
 end
