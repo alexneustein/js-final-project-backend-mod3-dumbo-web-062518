@@ -8,8 +8,10 @@ class UsersOnlineChannel < ApplicationCable::Channel
     # Any cleanup needed when channel is unsubscribed
   end
 
-  def user(data)
-    puts "TESTING"
-    ActionCable.server.broadcast('users_online_channel', username: data["username"])
+  def user_join(data)
+    # puts data
+    new_user = User.create(username: data['username'])
+    ActionCable.server.broadcast('users_online_channel', username: new_user.username)
+    # ActionCable.server.broadcast('users_online_channel', )
   end
 end

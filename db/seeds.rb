@@ -12,26 +12,26 @@ User.destroy_all
 Channel.destroy_all
 Message.destroy_all
 
-10.times {
-  channel = Channel.create(name: Faker::GameOfThrones.house)
-}
-
-50.times {
-  user = User.create(username: Faker::GameOfThrones.character )
-}
-
-50.times {
-  message = Message.create(
-    content: Faker::GameOfThrones.quote,
-    user_id: Random.rand(50),
-    channel_id: Random.rand(40)
-  )
-}
-
-
-
-
-
+# 10.times {
+#   channel = Channel.create(name: Faker::GameOfThrones.house)
+# }
+#
+# 50.times {
+#   user = User.create(username: Faker::GameOfThrones.character )
+# }
+#
+# 50.times {
+#   message = Message.create(
+#     content: Faker::GameOfThrones.quote,
+#     user_id: Random.rand(50),
+#     channel_id: Random.rand(40)
+#   )
+# }
+#
+#
+#
+#
+#
 
 # User.create(username: "runandre")
 # Channel.create(name: "COOL!")
