@@ -15,7 +15,6 @@ class UsersOnlineChannel < ApplicationCable::Channel
     User.create(username: data['username'], identifier: data['identifier'])
     usernames = User.all_usernames
     ActionCable.server.broadcast('users_online_channel', username: usernames)
-    # ActionCable.server.broadcast('users_online_channel', )
   end
 
   def user_leave(data)
