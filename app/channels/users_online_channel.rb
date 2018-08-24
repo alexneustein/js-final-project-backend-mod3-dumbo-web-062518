@@ -2,6 +2,8 @@ class UsersOnlineChannel < ApplicationCable::Channel
   def subscribed
     # stream_from "some_channel"
     stream_from 'users_online_channel'
+    usernames = User.all_usernames
+    ActionCable.server.broadcast('users_online_channel', username: usernames)
   end
 
   def unsubscribed
