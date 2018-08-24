@@ -2,7 +2,7 @@ class ChatMessagesChannel < ApplicationCable::Channel
   def subscribed
     # stream_from "some_channel"
     stream_from 'chat_messages_channel'
-    ChatMessagesChannel.all_messages(Message.all)
+    ChatMessagesChannel.all_messages(Message.all.order(id: :desc).limit(25).reorder(id: :asc))
   end
 
   def unsubscribed
