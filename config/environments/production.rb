@@ -85,6 +85,6 @@ Rails.application.configure do
 
 
   # config.action.cable.url = "wss://flatironchatterbox-api.herokuapp.com/cable"
-  # config.action_cable.allowed_request_origins = ['https://flatironchatterbox.herokuapp.com', 'http://flatironchatterbox.herokuapp.com']
-  # config.action_cable.disable_request_forgery_protection = true
+  config.action_cable.allowed_request_origins = ['https://flatironchatterbox.herokuapp.com', 'http://flatironchatterbox.herokuapp.com']
+  config.action_cable.disable_request_forgery_protection = true
 end
